@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+.body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fixwidth{
+   max-width: 1100px;
+margin: auto;
+
+
+}
+.clear::after{
+  content: "";
+display: block;
+clear: both;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+
+
+
+/* css stylle start */
+.navbar{
+    background: rgba(255, 127, 80, 0.164);
+   
+   
+
+}
+.logo{
+    width: 30%;
+}
+.logo img {
+    width: 40px;
+    float: left;
+    margin-right: 2px;
+    margin: 6px 4px;
+}
+.logo h1 {
+    font-size: 16px;
+    line-height: 51px;
+}
+.ittebar{ 
+    width: 45%;
+}
+.ittebar ul{
+text-align: center;
+}
+.ittebar ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+.ittebar ul li{
+float: left;
+list-style: none;
+padding: 10px 10px;
+color: #ffffff;
+line-height: 30px;
+border-right: 1px solid #ddd;
+
+
+}
+.ittebar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+font-size: 134x;
+
+
+}
+.ittebar ul li:hover{
+    background: #ddd;
+    border-radius: 5px;
+}
+.buttonbat{
+width: 15%;
+
+}
+
+.buttonbat .btn{
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+background: #6278DF;
+padding: 10px;
+border-radius: 10px;
+display: inline-block;
+margin-top: 9px;
+transition: 1s;
+
+}
+.buttonbat .btn:hover{
+    color: #fff;
+background: #DD4E24;
+transform: translateX(10px);
+}
+
+
+/* slidetbar */
+
+.slidetbar{
+    background: url(img/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+}
+.s-mainsaction{
+    padding: 150px 0;
+}
+
+
+.slidetbar .slid-had h4{
+font-size: 27px;
+color: #fff;
+font-weight: 600;
+
+
+}
+.slidetbar .slid-had h1{
+color: #fff;
+font-size: 50px;
+font-weight: 600;
+margin: 30px 0;
+}
+
+.button{
+    color: #6b5f5f;
+    text-decoration: none;
+background: #fff;
+text-transform: capitalize;
+font-weight: 600;
+display: inline-block;
+padding: 20px 30px;
+font-size: 29px;
+border-radius: 9px;
+transition: 1s;
+margin-right: 20px;
+}
+.button span{
+    margin-right: 7px;
+}
+.button:hover{
+    background: #6278DF;
+color: #fff;
+
+}
+
+
+
+/* later-space */
+
+.later-space{
+    background:#F7F9FF;
+
+}
+.later-space h1{
+    font-weight: 500;
+font-size: 45px;
+margin-top: 70px;
+margin-bottom: 20px;
+
+}
+.later-space p{
+    font-weight: 300;
+font-size: 20px;
+line-height: 33px;
+text-align: center;
+margin-bottom: 30px;
+}
+.leftbar{
+padding: 80px 0;
+}
+.leftbar h1 {
+   
+    font-size: 46px;
+    margin-bottom: 43px;
+}
+.leftbar p {
+    font-size: 28px;
+}
+
+.content6{
+    border: 1px solid #ddd;
+    width: 31.3%;
+margin-right: 2%;
+box-sizing: border-box;
+padding: 20px;
+box-shadow: 2px 2px 9px 3px #ddd;
+margin-bottom: 10px;
+
+}
+.content6:last-child {
+    margin-right: 0;
+}
+
+.content6 .icon{
+    height: 180px;
+    margin-right: 16px;
+margin-top: 20px;
+font-size: 40px;
+color: #6278DF;
+}
+.content6:hover{
+    box-shadow: 2px 2px 12px 6px rgb(172, 169, 169);
+    border-radius: 5px;
+}
+
+
+.content6 .ritter h1{
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+
+}
+.content6 .ritter p{
+font-weight: 300;
+line-height: 30px;
+margin-top: 40px;
+
+}
+
+
+/* price-weppear */
+.price-weppear{
+    background: #d8d8d8;
+}
+.leftbar .le-custon{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.leftbar .le-custonp{
+    font-weight: 200;
+}
+
+.pr-saction{
+background: rgb(255, 255, 255);
+width: 31.3%;
+box-sizing: border-box;
+margin-left: 2%;
+margin-bottom: 30px;
+
+}
+.pr-saction:hover .one-saction ,
+.pr-saction:hover .custon
+{
+    background: #6278DF;
+color: #fff;
+border-radius: 5px 5px 0 0;
+
+}
+
+.one-saction{
+    padding: 30px;
+    transition: all 1s;
+}
+.one-saction h4{
+font-size: 30px;
+text-transform: capitalize;
+font-weight: 400;
+margin-bottom: 30px;
+
+}
+.one-saction h1{
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.one-saction h1 span{ font-size: 20px;
+}
+.one-saction h5{
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 20px;
+
+}
+.one-saction p{
+font-size: 23px;
+line-height: 20px;
+font-weight: 300;
+line-height: 30px;
+}
+
+.tow-saction{
+    padding: 20px;
+}
+
+.tow-saction ul li{
+    list-style: none;
+   margin-bottom: 30px;
+font-size: 20px;
+text-transform: capitalize;
+font-family: 'Work Sans', sans-serif;
+font-weight: 300;
+}
+.custon{
+    background: rgb(255, 255, 255);
+box-shadow: 1px 1px 9px 3px rgb(158, 152, 152);
+color:#6278DF;
+
+}
+
+/*  team constantly  */
+
+.profriter .team-h1{
+    padding: 110px 0;
+font-size: 50px;
+font-weight: 500;
+}
+.team-member {
+    width: 23%;
+   margin-right: 2%;
+}
+.team-member:last-child{
+    margin-right: 0;
+}
+
+
+.team-member img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+    margin-bottom: 30px;
+}
+.team-member h1{
+    text-align: center;
+    font-weight: 500;
+}
+.team-member p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* subscribe */
+.subscribe{
+    background: #ddd;
+}
+.butn{
+width: 410px;
+  margin: auto;
+  margin-top: -50px;
+
+}
+.input{
+ float: left;
+ margin-right: 20px;
+ margin-top: 5PX;
+ border: transparent;
+ border-radius: 5px;
+ margin-bottom: 100px;
+ padding: 20px;
+ border: 1px solid rgb(189, 182, 182);
+}
+.cid-r59PqHwgrb input:focus, .cid-r59PqHwgrb textarea:focus {
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+input:focus{
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+    outline: none;
+
+}
+
+/* blocksaction */
+.blocksaction{
+    margin-bottom: 50px;
+}
+.block h1{
+    font-size: 37px;
+    FONT-WEIGHT: 500;
+    width: 45%;
+    text-align: center;
+    margin-right: 5%;
+   float: left;
+   margin-top: 169px;
+   margin-bottom: 121px;
+}
+.block p {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    width: 45%;
+    float: right;
+    margin-top: 109px;
+    margin-bottom: 50px;
+}
+.block-one {
+    width: 47%;
+    float: left;
+    margin-right: 6%;
+   background-color: rgb   (253, 250, 250);
+    box-shadow: 1px 1px 20px 9px #ddd;
+transition: 1s;
+margin-bottom: 50px;
+position: relative;
+}
+.block-one:hover{
+    box-shadow: 1px 1px 20px 9px rgb(250, 226, 226);
+}
+.block-one:nth-child(3){
+    margin-right: 0;
+} 
+.block-one img{
+    width: 100%;
+}
+.block-one h4{
+    font-size: 20px;
+      letter-spacing: 2px;
+    font-weight:600;
+margin-top: 50px;
+padding: 0 60px;
+}
+.block-one .p{
+margin: 0;
+float: none;
+font-weight: 200;
+font-size: 21px;
+padding: 40px 60px;
+
+
+}
+
+
+/* cliend-sactione */
+.hadbar{
+    padding-top: 80px;
+}
+
+.cliend-sactione .timeline p{
+    font-size: 40px;
+    
+}
+.cliend-sactione .timeline p{
+    
+}
+
+
+
+
+
+.maincntent{
+    width: 30%;
+    margin-right: 5%;
+}
+ .cliend-sactione{
+     background: #dfe0e0;
+ }
+ .maincntent:last-child{
+     margin-right: 0;
+ }
+
+
+
+ .cliend-sactione .custonh{
+     font-size: 40px;
+     
+ }
+ .leterbox {
+     margin-top: 80px;
+     background: rgb(255, 254, 254);
+     
+     margin-bottom: 50px;
+     position: relative;
+    padding: 70px;
+    z-index: 5;
+    height: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+margin-right: 5%;
+
+ }
+ .leterbox:last-child{
+     margin-right: 0%;
+ }
+ .leterbox::before{
+     content: "";
+display: block;
+border-style: solid;
+border-width: 20px 20px 0px 20px;
+border-color: #fff transparent transparent transparent;
+position: absolute;
+top: 100%;
+right: 50%;
+ }
+ .leterbox h1{
+z-index: 1;     
+
+
+
+ }
+ .boxcuston{
+     
+ }
+ .conte{
+     font-size: 80px;
+     position: absolute;
+    opacity: .5;
+    z-index: -1;
+    color: #ddd;
+    margin-top: -40px;
+    margin-left: -40px;
+ }
+ .user{
+     width: 200px;
+     margin: auto;
+     margin-bottom: 50px;
+  overflow: hidden;
+    
+ }
+.user img{
+    border-radius: 50%;
+    width: 80px;
+margin-right: 20px;
+
+}
+.user h4{
+font-size: 20px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.user p{
+
+}
+
+/* frome parr */
+.w100{
+    width: 100%;
+
+}
+.w50
+.map {
+    width: 60%;
+}
+.frome-futer .form{
+    width: 45%;
+}
+
+
+
+
+

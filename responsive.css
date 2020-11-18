@@ -1,0 +1,36 @@
+    
+@media screen and (max-width:768px){
+    .fixwidth{
+        width: 90%;
+margin: auto;
+
+    }
+}
+
+
+
+
+@media screen and (min-width:768px){
+    .later-space{
+        width: 45%;
+float: right;
+
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .ifreme{
+        width: 45%;
+float: left;
+margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
